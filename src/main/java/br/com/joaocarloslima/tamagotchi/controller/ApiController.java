@@ -13,9 +13,9 @@ public class ApiController {
 
     @GetMapping("/turno")
     public void turno() {
-        // service.getGato().turno();
-        // service.getCachorro().turno();
-        // service.getDragao().turno();
+         service.getGato().turno();
+         service.getCachorro().turno();
+         service.getDragao().turno();
     }
 
 }
